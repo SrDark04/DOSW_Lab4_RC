@@ -1,33 +1,32 @@
-HELP.md
+# Ignore everything by default
+/*
+
+# Keep this file
+!.gitignore
+
+# Keep top-level markdown files
+!/*.md
+
+# Keep src and docs directories and all their contents
+!/src/
+!/src/**
+!/docs/
+!/docs/**
+
+# Common generated/build folders (already ignored by the above, kept for clarity)
 target/
-.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# IDE/editor configs (ignored)
+.idea/
 .vscode/
+.classpath
+.project
+.settings/
+
+# Maven wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# OS files
+.DS_Store
+Thumbs.db
