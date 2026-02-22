@@ -96,3 +96,6 @@ c) Si tuviera que dar una prioridad, ¿cuáles 2 implementar primero?
 d) ¿Existe algún requerimiento que no debería realizarse?
 
 - No eliminar ninguno, pero **posponer** implementaciones complejas hasta iteraciones posteriores: la exportación completa a DIAN (RF-03) y cifrado avanzado por campo, hasta definir formatos legales y política de claves.
+
+## 4. Mokup de la interfaz
+https://www.figma.com/design/bXwg9GOvW6O4xLVcchuowc/mukup-bankfy?node-id=0-1&m=dev&t=kj2MQR6OOyyevAiP-1
